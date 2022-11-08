@@ -25,4 +25,10 @@ class Entry(models.Model):
 
     def __str__(self):
         return self.headline
+
+
+class Employee():
+    emp_id = models.IntegerField
+    emp_name = models.CharField(max_length=256)
+
         
